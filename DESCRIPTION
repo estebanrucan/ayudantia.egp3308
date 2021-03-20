@@ -3,9 +3,14 @@ Type: Package
 Title: Ayudantías de EPG3308
 Version: 1.0.0
 Author: Esteban Rucán
-Maintainer: Esteban Rucán <errucan@uc.cl>
-Description: Este package será incluido en algunas de las actividades realizadas en las Ayudantías de EPG3308 - Computación Estadística
+Maintainer: Esteban Rucán <errucan@gmail.com>
+Description: Este package será incluido en algunas 
+    de las actividades realizadas en las Ayudantías de 
+    EPG3308 - Computación Estadística.
 Encoding: UTF-8
-License: GPL-3.0 License
+License: GPL-3 + file LICENSE
 LazyData: true
 RoxygenNote: 7.1.1
+Depends: 
+    R (>= 3.5.0)
+Language: es

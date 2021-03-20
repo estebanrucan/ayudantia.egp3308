@@ -2,28 +2,26 @@
 #'
 #' Muestra un mensaje de bienvenida
 #'
-#' Esta función ha sido diseñada para darles la bienvenida a los
-#' estudiantes del Curso EPG3308 y que el primer package que carguen
-#' les muestre un lindo mensaje :D
+#' Esta función ha sido diseñada para darles la bienvenida a los estudiantes del Curso EPG3308 y que el primer package que carguen les muestre un lindo mensaje.
 #'
 #' @author Esteban Rucán
 #'
 #' @return Mensaje de bienvenida
-#' @export
+#' @encoding UTF-8
 #'
-#' @examples
-#' \dontrun{
-#'      mensaje_de_bienvenida()
-#' }
+#' @example
+#' mensaje_de_bienvenida()
+#'
+#' @export
 
 mensaje_de_bienvenida <- function() {
     writeLines(
         c(
-            '¡Sean muy bienvenid@s al curso EPG3308!',
-            'Haremos lo posible para que las ayudantias sean',
+            '\u00A1Sean muy bienvenid@s al curso EPG3308!',
+            'Haremos lo posible para que las ayudant\u00EDas sean',
             'una interesante fuente de aprendizaje.',
-            '¡Recuerden preguntarnos todas sus dudas!',
-            'Atentamente: sus ayudantes Esteban y Benjamin.'
+            '\u00A1Recuerden preguntarnos todas sus dudas!',
+            'Atentamente: sus ayudantes Esteban y Benjam\u00EDn.'
         )
     )
 }
