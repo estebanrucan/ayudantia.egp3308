@@ -23,6 +23,7 @@
 power_mean <- function(x, m, na.rm) {
     if (is.character(x)) stop('El vector debe ser num\u00E9rico')
     if (length(x) == 0) stop('El vector debe al menos un elemento')
+    if (na.rm) x <- x[!is.na(x)]
 
     largo_x <- length(x)
 
