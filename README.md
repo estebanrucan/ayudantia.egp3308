@@ -1,2 +1,6 @@
-# ayudantia.egp3308
-Package de R para las ayudantías de EPG3308 - Computación Estadística
+
+# Ayudantía EYP3308 - Computación Estadística
+
+## Descripción
+
+Package para complementar el trabajo en las Ayudantías

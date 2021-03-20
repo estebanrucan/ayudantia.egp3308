@@ -1,0 +1,13 @@
+---
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Ayudantía EYP3308 - Computación Estadística
+
+## Descripción
+
+Package para complementar el trabajo en las Ayudantías  
