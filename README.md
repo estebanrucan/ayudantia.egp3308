@@ -8,7 +8,7 @@ Package para complementar el trabajo en las Ayudantías en R.
 ## Instalación
 
 ``` r
-# install.packages('remotes')
+install.packages('remotes')
 remotes::install_github('estebanrucan/ayudantia.epg3308')
 ```
 
