@@ -5,22 +5,11 @@
 
 Package para complementar el trabajo en las Ayudantías en R.
 
-## Instalación
+## Instalación y carga del package
 
 ``` r
-install.packages('remotes')
-remotes::install_github('estebanrucan/ayudantia.epg3308')
+if (!require(devtools)) install.packages('devtools'); require(devtools)
+if (!require(ayudantia.epg3308)) install_github('estebanrucan/ayudantia.epg3308'); require(ayudantia.epg3308)
 ```
 
-## Forma de usar
-
-``` r
-library(ayudantia.epg3308)
-# o
-require(ayudantia.epg3308)
-# o
-suppressPackageStartupMessages(require(ayudantia.epg3308))
-# etc
-```
-
-### Versión 1.0.0
+### Versión 1.0.0 (en constante desarrollo)
