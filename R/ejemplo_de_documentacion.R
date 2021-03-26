@@ -16,8 +16,8 @@
 ejemplo_de_documentacion <- function() {
     writeLines(
         c(
-            'Observa la documentacion de esta funci\u00F3n',
-            'escribiendo en la consola "?ejemplo_de_documentacion"'
+            'Observa la documentaci\u00F3n de esta funci\u00F3n',
+            'escribiendo en la consola "?ayudantia.epg3308.ejemplo_de_documentacion"'
         )
     )
 }
