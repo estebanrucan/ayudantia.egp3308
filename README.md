@@ -12,4 +12,4 @@ if (!require(devtools)) install.packages('devtools'); require(devtools)
 if (!require(ayudantia.epg3308)) install_github('estebanrucan/ayudantia.epg3308'); require(ayudantia.epg3308)
 ```
 
-### Versión 1.0.0 (en constante desarrollo)
+### Versión 2.0.0 (en constante desarrollo)

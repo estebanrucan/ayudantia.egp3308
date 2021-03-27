@@ -1,7 +1,7 @@
 Package: ayudantia.epg3308
 Type: Package
 Title: Ayudantías de EPG3308
-Version: 1.0.0
+Version: 2.0.0
 Author: Esteban Rucán
 Maintainer: Esteban Rucán <errucan@gmail.com>
 Description: Este package será incluido en algunas 
