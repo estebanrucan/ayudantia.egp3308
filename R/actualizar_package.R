@@ -16,14 +16,22 @@
 #' @export
 
 actualizar_package <- function() {
+
     if ('package:ayudantia.epg3308' %in% search()) {
-        detach(package:ayudantia.epg3308,
+
+        detach(name   = package:ayudantia.epg3308,
                unload = TRUE)
+
+        cargado <- TRUE
     }
 
-    utils::remove.packages('ayudantia.epg3308',
-                           .libPaths()[1])
-    install_github('estebanrucan/ayudantia.epg3308',
-                            lib = .libPaths()[1],
+    utils::remove.packages(pkgs = 'ayudantia.epg3308',
+                           lib  = .libPaths()[1])
+
+    remotes::install_github(repo  = 'estebanrucan/ayudantia.epg3308',
+                            lib   = .libPaths()[1],
                             force = TRUE)
+
+    if (cargado) suppressPackageStartupMessages(require(ayudantia.epg3308))
+
 }
