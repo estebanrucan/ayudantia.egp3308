@@ -1,5 +1,5 @@
 
-# Ayudantía EYP3308 - Computación Estadística
+# Ayudantía EPG3308 - Computación Estadística
 
 ## Descripción
 
