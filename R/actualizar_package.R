@@ -1,6 +1,6 @@
 #' Actualizar package
 #'
-#' Función que actualiza el package \code{ayudantia.epg3308}
+#' Función que actualiza el package 'ayudantia.epg3308'.
 #'
 #' Debido a lo complicado que puede ser desinstalar un package y reinstalarlo. Automatizamos ese procesimiento con esta función.
 #'

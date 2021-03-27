@@ -11,7 +11,7 @@ actualizar_package()
 Package \code{ayudantia.epg3308} actualizado a su versión más reciente.
 }
 \description{
-Función que actualiza el package \code{ayudantia.epg3308}
+Función que actualiza el package 'ayudantia.epg3308'.
 }
 \details{
 Debido a lo complicado que puede ser desinstalar un package y reinstalarlo. Automatizamos ese procesimiento con esta función.
