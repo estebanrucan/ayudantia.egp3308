@@ -17,6 +17,8 @@
 
 actualizar_package <- function() {
 
+    cargado <- FALSE
+
     if ('package:ayudantia.epg3308' %in% search()) {
 
         detach(name   = package:ayudantia.epg3308,
