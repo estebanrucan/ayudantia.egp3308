@@ -4,7 +4,7 @@
 \name{ayudantia.epg3308}
 \alias{ayudantia.epg3308}
 \alias{ayudantia.epg3308-package}
-\title{ayudantia.epg3308: Un package desarrollado para las Ayudantías}
+\title{Package para las Ayudantías de EPG3308}
 \description{
 Este package será incluido en algunas de las actividades realizadas
 en las Ayudantías de EPG3308 - Computación Estadística
