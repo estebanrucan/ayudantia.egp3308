@@ -16,9 +16,6 @@ Función que indica el número de ayudantía
 \details{
 Esta función está pensada para la plantilla de R Markdown de las ayudantías
 }
-\examples{
-numero_de_ayudantia()
-}
 \author{
 Esteban Rucán.
 }

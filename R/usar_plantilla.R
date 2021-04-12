@@ -12,15 +12,15 @@
 #'
 #' @encoding UTF-8
 #'
-#' @examples usar_plantilla()
+#' @param dir Un \code{character}. Ruta Absoluta.
 #'
-#' @import bslib
+#' @examples \dontrun{usar_plantilla()}
 #'
 #' @importFrom usethis use_template
 #'
-#' @importFrom utils install.packages
+#' @importFrom usethis create_project
 #'
-#' @importFrom here from here
+#' @importFrom utils install.packages
 #'
 #' @export
 
@@ -36,7 +36,7 @@ usar_plantilla <- function(dir = getwd()) {
 
     if (!is_a_project) {
         setwd(dir)
-        file.create(paste0(nombre, '.Rproj'))
+        create_project('./', open = FALSE)
     }
 
     use_template('plantilla_ayudantias.Rmd',

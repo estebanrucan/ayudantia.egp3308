@@ -7,6 +7,9 @@
 \usage{
 usar_plantilla(dir = getwd())
 }
+\arguments{
+\item{dir}{Un \code{character}. Ruta Absoluta.}
+}
 \value{
 Archivo con extensión \code{.Rmd}.
 }
@@ -17,7 +20,7 @@ Puedes usar esta función para crear una plantilla de RMarkdown en el directorio
 La buena estructuración de un documento mejora la comprensión del mismo.
 }
 \examples{
-usar_plantilla()
+\dontrun{usar_plantilla()}
 
 }
 \author{

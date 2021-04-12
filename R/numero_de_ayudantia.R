@@ -9,8 +9,6 @@
 #' @return Archivo con extensión \code{.Rmd}.
 #'
 #' @encoding UTF-8
-#'
-#' @examples numero_de_ayudantia()
 
 numero_de_ayudantia <- function() {
     fechas <- as.Date(
