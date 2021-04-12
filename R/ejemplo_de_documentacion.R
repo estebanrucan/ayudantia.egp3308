@@ -9,7 +9,7 @@
 #' @return Mensaje con un consejo
 #' @encoding UTF-8
 #'
-#' @example ?ejemplo_de_documentacion
+#' @examples ?ejemplo_de_documentacion
 #'
 #' @export
 

@@ -16,6 +16,10 @@ Ejemplo para los estudiantes
 \details{
 Esta función está hecha para que los estudiantes vean un ejemplo de documentación
 }
+\examples{
+?ejemplo_de_documentacion
+
+}
 \author{
 Esteban Rucán
 }

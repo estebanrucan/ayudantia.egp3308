@@ -7,11 +7,12 @@
 #' @author Esteban Rucán.
 #'
 #' @return Package \code{ayudantia.epg3308} actualizado a su versión más reciente.
+#'
 #' @encoding UTF-8
 #'
 #' @import remotes
 #'
-#' @example actualizar_package()
+#' @examples actualizar_package()
 #'
 #' @export
 

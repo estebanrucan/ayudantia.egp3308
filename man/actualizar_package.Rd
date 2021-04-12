@@ -16,6 +16,10 @@ Función que actualiza el package 'ayudantia.epg3308'.
 \details{
 Debido a lo complicado que puede ser desinstalar un package y reinstalarlo. Automatizamos ese procesimiento con esta función.
 }
+\examples{
+actualizar_package()
+
+}
 \author{
 Esteban Rucán.
 }

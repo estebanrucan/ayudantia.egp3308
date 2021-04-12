@@ -2,7 +2,10 @@
 
 export(actualizar_package)
 export(ejemplo_de_documentacion)
-export(generar_estructura)
 export(mensaje_de_bienvenida)
 export(power_mean)
+export(usar_plantilla)
+import(bslib)
 import(remotes)
+importFrom(usethis,use_template)
+importFrom(utils,install.packages)

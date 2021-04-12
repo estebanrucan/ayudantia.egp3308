@@ -9,7 +9,7 @@
 #' @return Mensaje de bienvenida
 #' @encoding UTF-8
 #'
-#' @example
+#' @examples
 #' mensaje_de_bienvenida()
 #'
 #' @export

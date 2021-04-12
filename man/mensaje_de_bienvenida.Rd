@@ -16,6 +16,10 @@ Muestra un mensaje de bienvenida
 \details{
 Esta función ha sido diseñada para darles la bienvenida a los estudiantes del Curso EPG3308 y que el primer package que carguen les muestre un lindo mensaje.
 }
+\examples{
+mensaje_de_bienvenida()
+
+}
 \author{
 Esteban Rucán
 }
