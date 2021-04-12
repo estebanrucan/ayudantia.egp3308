@@ -5,7 +5,7 @@
 \alias{usar_plantilla}
 \title{Crear Plantilla de R Markdown}
 \usage{
-usar_plantilla()
+usar_plantilla(dir = getwd())
 }
 \value{
 Archivo con extensión \code{.Rmd}.
