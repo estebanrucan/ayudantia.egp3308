@@ -1,5 +1,5 @@
 ---
-title: "<center>Ayudantía EPG3308</center>"
+title: "<center>Desarrollo de la Ayudantía</center>"
 subtitle: "<center>EPG3308 - Computación Estadística</center>"
 # autor: "Tu nombre"
 date: "<center>`r format(Sys.Date(), '%d de %B, %Y')`</center>"
@@ -34,6 +34,8 @@ require(ayudantia.epg3308)
 
 ```{r}
 # Escribe tu código aquí
+
+
 ```
 
 ## Pregunta 2
@@ -42,6 +44,8 @@ require(ayudantia.epg3308)
 
 ```{r}
 # Escribe tu código aquí
+
+
 ```
 
 ## Pregunta 3
@@ -50,5 +54,7 @@ require(ayudantia.epg3308)
 
 ```{r}
 # Escribe tu código aquí
+
+
 ```
 
