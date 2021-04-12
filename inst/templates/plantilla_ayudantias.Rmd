@@ -1,14 +1,13 @@
 ---
-title: "Ayudantía EPG3308"
-subtitle: "EPG3308 - Computación Estadística"
+title: "<center>Ayudantía EPG3308</center>"
+subtitle: "<center>EPG3308 - Computación Estadística</center>"
 # autor: "Tu nombre"
-date: "`r format(Sys.Date(), '%d de %B, %Y')`"
+date: "<center>`r format(Sys.Date(), '%d de %B, %Y')`</center>"
 output: 
     html_document:
         toc: true
         toc_float:
           collapsed: false
-          smooth_scroll: false
         theme:
             bg: '#202123'      # Color de fondo
             fg: '#B8BCC2'      # Color fuente y lineas.
