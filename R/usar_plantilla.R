@@ -36,7 +36,7 @@ usar_plantilla <- function(dir = getwd()) {
 
     if (!is_a_project) {
         setwd(dir)
-        file.create(paste0(name, '.Rproj'))
+        file.create(paste0(nombre, '.Rproj'))
     }
 
     use_template('plantilla_ayudantias.Rmd',
