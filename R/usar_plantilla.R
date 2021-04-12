@@ -20,15 +20,24 @@
 #'
 #' @importFrom utils install.packages
 #'
+#' @importFrom here from here
+#'
 #' @export
 
-usar_plantilla <- function() {
+usar_plantilla <- function(dir = getwd()) {
     numero <- numero_de_ayudantia()
     nombre <- paste0('epg3308_ayudantia-', numero, '.Rmd')
 
     stopifnot(!file.exists(nombre))
 
     options("yaml.eval.expr" = TRUE)
+
+    is_a_project <- length(grep("\\.Rproj", list.files())) > 0
+
+    if (!is_a_project) {
+        setwd(dir)
+        file.create(paste0(name, '.Rproj'))
+    }
 
     use_template('plantilla_ayudantias.Rmd',
                  save_as = nombre,
