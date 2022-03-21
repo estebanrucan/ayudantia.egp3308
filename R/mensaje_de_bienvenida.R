@@ -21,7 +21,7 @@ mensaje_de_bienvenida <- function() {
             'Haremos lo posible para que las ayudant\u00EDas sean',
             'una interesante fuente de aprendizaje.',
             '\u00A1Recuerden preguntarnos todas sus dudas!',
-            'Atentamente: sus ayudantes Esteban y Benjam\u00EDn.'
+            'Atentamente: sus ayudantes Esteban y Vanesa.'
         )
     )
 }
